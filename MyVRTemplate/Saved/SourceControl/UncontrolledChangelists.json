@@ -1,0 +1,18 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/hecto/Documents/GitHub/MyVRTemplate/MyVRTemplate/Content/VRTemplate/Maps/VRTemplateMap.umap",
+				"C:/Users/hecto/Documents/GitHub/MyVRTemplate/MyVRTemplate/Content/MyVRTemplate/Blueprints/BP_VRLever.uasset",
+				"C:/Users/hecto/Documents/GitHub/MyVRTemplate/MyVRTemplate/Content/MyVRTemplate/Blueprints/BP_VRDial.uasset",
+				"C:/Users/hecto/Documents/GitHub/MyVRTemplate/MyVRTemplate/Content/VRTemplate/Maps/VRTemplateMap_BuiltData.uasset",
+				"C:/Users/hecto/Documents/GitHub/MyVRTemplate/MyVRTemplate/Content/MyVRTemplate/Blueprints/VRInteractables/BP_VRDial.uasset",
+				"C:/Users/hecto/Documents/GitHub/MyVRTemplate/MyVRTemplate/Content/MyVRTemplate/Blueprints/VRInteractables/BP_VRLever.uasset",
+				"C:/Users/hecto/Documents/GitHub/MyVRTemplate/MyVRTemplate/Content/MyVRTemplate/Maps/MyVRTemplateMap.umap"
+			]
+		}
+	]
+}

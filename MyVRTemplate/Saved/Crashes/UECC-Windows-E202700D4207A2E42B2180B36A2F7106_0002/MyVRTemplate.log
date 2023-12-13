@@ -4195,15 +4195,3 @@ Script Stack (0 frames) :
 [2023.12.13-15.57.37:271][108]Lights with unbuilt interactions: 0
 [2023.12.13-15.57.37:271][108]
 [2023.12.13-15.57.37:271][108]Primitives with unbuilt interactions: 0
-[2023.12.13-15.57.40:407][108]LogStall: Stall detector 'FShaderCompilingManager::BlockOnAllShaderMapCompletion' exceeded budget of 2.000000s, reporting...
-[2023.12.13-15.57.41:277][108]LogStall: Stall detector 'FShaderCompilingManager::BlockOnAllShaderMapCompletion' report submitted, and took 0.049938s
-[2023.12.13-15.59.04:352][108]LogStall: Stall detector 'FShaderCompilingManager::BlockOnAllShaderMapCompletion' complete in 0.002072s (83.122949s overbudget)
-[2023.12.13-15.59.04:609][109]Cmd: MAP CHECK NOTIFYRESULTS
-[2023.12.13-15.59.04:609][109]MapCheck: New page: MyVRTemplateMap - 13 dic. 2023 3:59:04
-[2023.12.13-15.59.04:610][109]MapCheck: Warning: BP_VRLever_C_1 Static mesh actor has NULL StaticMesh property 
-[2023.12.13-15.59.04:610][109]MapCheck: Map check complete: 0 Error(s), 1 Warning(s), took 0.432ms to complete.
-[2023.12.13-15.59.52:131][713]LogContentBrowser: Deferred new asset folder creation: NewFolder
-[2023.12.13-15.59.52:145][713]LogContentBrowser: Creating deferred item: NewFolder
-[2023.12.13-15.59.52:152][714]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
-[2023.12.13-16.00.03:450][392]LogContentBrowser: Attempting asset rename: NewFolder -> VRSocketInteractor
-[2023.12.13-16.00.03:451][392]LogContentBrowser: End creating deferred item NewFolder
