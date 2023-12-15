@@ -11,7 +11,18 @@
 				"C:/Users/hecto/Documents/GitHub/MyVRTemplate/MyVRTemplate/Content/VRTemplate/Maps/VRTemplateMap_BuiltData.uasset",
 				"C:/Users/hecto/Documents/GitHub/MyVRTemplate/MyVRTemplate/Content/MyVRTemplate/Blueprints/VRInteractables/BP_VRDial.uasset",
 				"C:/Users/hecto/Documents/GitHub/MyVRTemplate/MyVRTemplate/Content/MyVRTemplate/Blueprints/VRInteractables/BP_VRLever.uasset",
-				"C:/Users/hecto/Documents/GitHub/MyVRTemplate/MyVRTemplate/Content/MyVRTemplate/Maps/MyVRTemplateMap.umap"
+				"C:/Users/hecto/Documents/GitHub/MyVRTemplate/MyVRTemplate/Content/MyVRTemplate/Maps/MyVRTemplateMap.umap",
+				"C:/Users/hecto/Documents/GitHub/MyVRTemplate/MyVRTemplate/Content/MyVRTemplate/Maps/MyVRTemplateMap_BuiltData.uasset",
+				"C:/Users/hecto/Documents/GitHub/MyVRTemplate/MyVRTemplate/Content/MyVRTemplate/Blueprints/VRInteractables/VRSocketInteractor/BP_VRSocketInteractor.uasset",
+				"C:/Users/hecto/Documents/GitHub/MyVRTemplate/MyVRTemplate/Content/MyVRTemplate/Blueprints/VRInteractables/VRSocketInteractor/AttachZone.uasset",
+				"C:/Users/hecto/Documents/GitHub/MyVRTemplate/MyVRTemplate/Content/MyVRTemplate/Blueprints/VRInteractables/VRSocketInteractor/AttachableZoneObject.uasset",
+				"C:/Users/hecto/Documents/GitHub/MyVRTemplate/MyVRTemplate/Content/MyVRTemplate/Blueprints/VRInteractables/VRSocketInteractor/BP_AttachableObject.uasset",
+				"C:/Users/hecto/Documents/GitHub/MyVRTemplate/MyVRTemplate/Content/MyVRTemplate/Blueprints/VRInteractables/VRSocketInteractor/AttachableObject.uasset",
+				"C:/Users/hecto/Documents/GitHub/MyVRTemplate/MyVRTemplate/Content/MyVRTemplate/Materials/M_Transparent.uasset",
+				"C:/Users/hecto/Documents/GitHub/MyVRTemplate/MyVRTemplate/Content/MyVRTemplate/Materials/M_TransparentBlue05.uasset",
+				"C:/Users/hecto/Documents/GitHub/MyVRTemplate/MyVRTemplate/Content/MyVRTemplate/Blueprints/VRInteractables/VRSocketInteractor/Enum/E_InteractionLayer.uasset",
+				"C:/Users/hecto/Documents/GitHub/MyVRTemplate/MyVRTemplate/Content/MyVRTemplate/Blueprints/VRInteractables/VRSocketInteractor/VRSocketInteractor.uasset",
+				"C:/Users/hecto/Documents/GitHub/MyVRTemplate/MyVRTemplate/Content/MyVRTemplate/Blueprints/VRInteractables/VRSocketInteractor/BP.uasset"
 			]
 		}
 	]
