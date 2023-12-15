@@ -3027,3 +3027,137 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.12.15-19.49.10:669][564]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
 [2023.12.15-19.49.13:361][570]LogUdpMessaging: Display: Added local interface '192.168.1.31' to multicast group '230.0.0.1:6666'
 [2023.12.15-19.53.26:285][329]LogDerivedDataCache: C:/Users/hecto/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:01:00.073 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 31379 files in 32862 folders with total size 4933 MiB.
+[2023.12.15-20.30.26:365][667]Cmd: TRANSACTION UNDO
+[2023.12.15-20.30.26:365][667]LogEditorTransaction: Undo Clicking on Elements
+[2023.12.15-20.30.36:710][279]MapCheck: New page: Map Check
+[2023.12.15-20.30.36:725][279]LogSlate: Took 0.002851 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.12.15-20.30.36:729][279]LightingResults: New page: Lighting Build - 15 dic. 2023 8:30:36
+[2023.12.15-20.30.36:754][279]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2023.12.15-20.30.36:783][279]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2023.12.15-20.30.36:791][279]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2023.12.15-20.30.40:339][279]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2023.12.15-20.30.40:339][279]LogSwarmInterface: [TryOpenConnection] Local Process ID is 13328
+[2023.12.15-20.30.42:772][279]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2023.12.15-20.30.42:772][279]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2023.12.15-20.30.42:772][279]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2023.12.15-20.30.42:772][279]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2023.12.15-20.30.42:772][279]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2023.12.15-20.30.42:891][279]LogEditorBuildUtils: Build time 0:06
+[2023.12.15-20.30.42:901][279]LogShaderCompilers: Display: ================================================
+[2023.12.15-20.30.42:901][279]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.12.15-20.30.42:901][279]LogShaderCompilers: Display: Total job queries 17, among them cache hits 3 (17.65%)
+[2023.12.15-20.30.42:901][279]LogShaderCompilers: Display: Tracking 14 distinct input hashes that result in 9 distinct outputs (64.29%)
+[2023.12.15-20.30.42:901][279]LogShaderCompilers: Display: RAM used: 493.16 KiB of 3.20 GiB budget. Usage: 0.01%
+[2023.12.15-20.30.42:901][279]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.12.15-20.30.42:901][279]LogShaderCompilers: Display: Shaders Compiled: 0
+[2023.12.15-20.30.42:901][279]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2023.12.15-20.30.42:901][279]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2023.12.15-20.30.42:901][279]LogShaderCompilers: Display: ================================================
+[2023.12.15-20.30.42:956][281]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2023.12.15-20.30.45:588][414]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.15-20.30.45:687][416]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/MyVRTemplate/Blueprints/VRInteractables/VRSocketInteractor/BP_VRSocketInteractor.BP_VRSocketInteractor_C
+[2023.12.15-20.30.45:687][416]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/MyVRTemplate/Blueprints/VRInteractables/VRSocketInteractor/BP_VRSocketInteractor.BP_VRSocketInteractor_C
+[2023.12.15-20.30.45:689][416]LogActorFactory: Actor Factory spawned Blueprint /Game/MyVRTemplate/Blueprints/VRInteractables/VRSocketInteractor/BP_VRSocketInteractor.BP_VRSocketInteractor as actor: BP_VRSocketInteractor_C /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.BP_VRSocketInteractor_C_0
+[2023.12.15-20.30.45:691][416]LogActorFactory: Actor Factory spawned Blueprint /Game/MyVRTemplate/Blueprints/VRInteractables/VRSocketInteractor/BP_VRSocketInteractor.BP_VRSocketInteractor as actor: BP_VRSocketInteractor_C /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.BP_VRSocketInteractor_C_0
+[2023.12.15-20.30.45:694][416]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2023.12.15-20.30.46:705][471]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/MyVRTemplate/Blueprints/VRInteractables/VRSocketInteractor/BP_VRSocketInteractor.BP_VRSocketInteractor_C
+[2023.12.15-20.30.46:705][471]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/MyVRTemplate/Blueprints/VRInteractables/VRSocketInteractor/BP_VRSocketInteractor.BP_VRSocketInteractor_C
+[2023.12.15-20.30.46:707][471]LogActorFactory: Actor Factory spawned Blueprint /Game/MyVRTemplate/Blueprints/VRInteractables/VRSocketInteractor/BP_VRSocketInteractor.BP_VRSocketInteractor as actor: BP_VRSocketInteractor_C /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.BP_VRSocketInteractor_C_1
+[2023.12.15-20.30.46:707][471]LogActorFactory: Actor Factory spawned Blueprint /Game/MyVRTemplate/Blueprints/VRInteractables/VRSocketInteractor/BP_VRSocketInteractor.BP_VRSocketInteractor as actor: BP_VRSocketInteractor_C /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.BP_VRSocketInteractor_C_1
+[2023.12.15-20.30.47:650][526]Job is a success!
+[2023.12.15-20.30.47:735][528]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.004s
+[2023.12.15-20.30.47:735][528]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2023.12.15-20.30.47:735][528]LogVolumetricLightmapImport:      BrickData (all levels) 0.0Mb (trimmed 0.0Mb due to 0.010000 MinBrickError)
+[2023.12.15-20.30.47:735][528]LogVolumetricLightmapImport:      Bricks at depth
+[2023.12.15-20.30.47:735][528]LogVolumetricLightmapImport:          0: 9.1% covering 100.0% of volume
+[2023.12.15-20.30.47:735][528]LogVolumetricLightmapImport:          1: 9.1% covering 1.6% of volume
+[2023.12.15-20.30.47:735][528]LogVolumetricLightmapImport:          2: 81.8% covering 0.2% of volume
+[2023.12.15-20.30.47:735][528]LogVolumetricLightmapImport:      Bricks in each level
+[2023.12.15-20.30.47:735][528]LogVolumetricLightmapImport:          VRTemplateMap 			 11 bricks 	 100.0% (Persistent Level)
+[2023.12.15-20.30.47:884][528]LogTexture: Display: Building textures: /Game/VRTemplate/Maps/VRTemplateMap_BuiltData.VRTemplateMap_BuiltData:HQ_Lightmap0_1 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 170.479156 MB), EncodeSpeed: Fast
+[2023.12.15-20.30.47:894][528]LogTexture: Display: Building textures: /Game/VRTemplate/Maps/VRTemplateMap_BuiltData.VRTemplateMap_BuiltData:LQ_Lightmap_0_1 (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 123.104155 MB), EncodeSpeed: Fast
+[2023.12.15-20.30.47:901][528]LogTexture: Display: Building textures: /Game/VRTemplate/Maps/VRTemplateMap_BuiltData.VRTemplateMap_BuiltData:HQ_Lightmap0_2 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 170.479156 MB), EncodeSpeed: Fast
+[2023.12.15-20.30.47:909][528]LogTexture: Display: Building textures: /Game/VRTemplate/Maps/VRTemplateMap_BuiltData.VRTemplateMap_BuiltData:LQ_Lightmap_0_2 (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 123.104155 MB), EncodeSpeed: Fast
+[2023.12.15-20.30.47:915][528]LogTexture: Display: Building textures: /Game/VRTemplate/Maps/VRTemplateMap_BuiltData.VRTemplateMap_BuiltData:HQ_Lightmap0_3 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 170.479156 MB), EncodeSpeed: Fast
+[2023.12.15-20.30.47:965][528]LogTexture: Display: Building textures: /Game/VRTemplate/Maps/VRTemplateMap_BuiltData.VRTemplateMap_BuiltData:LQ_Lightmap_0_3 (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 123.104155 MB), EncodeSpeed: Fast
+[2023.12.15-20.30.47:972][528]LogTexture: Display: Building textures: /Game/VRTemplate/Maps/VRTemplateMap_BuiltData.VRTemplateMap_BuiltData:HQ_Lightmap1_4 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 170.479156 MB), EncodeSpeed: Fast
+[2023.12.15-20.30.47:979][528]LogTexture: Display: Building textures: /Game/VRTemplate/Maps/VRTemplateMap_BuiltData.VRTemplateMap_BuiltData:LQ_Lightmap_1_4 (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 123.104155 MB), EncodeSpeed: Fast
+[2023.12.15-20.30.47:986][528]LogTexture: Display: Building textures: /Game/VRTemplate/Maps/VRTemplateMap_BuiltData.VRTemplateMap_BuiltData:HQ_Lightmap1_5 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 170.479156 MB), EncodeSpeed: Fast
+[2023.12.15-20.30.47:993][528]LogTexture: Display: Building textures: /Game/VRTemplate/Maps/VRTemplateMap_BuiltData.VRTemplateMap_BuiltData:LQ_Lightmap_1_5 (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 123.104155 MB), EncodeSpeed: Fast
+[2023.12.15-20.30.48:000][528]LogTexture: Display: Building textures: /Game/VRTemplate/Maps/VRTemplateMap_BuiltData.VRTemplateMap_BuiltData:HQ_Lightmap1_6 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 170.479156 MB), EncodeSpeed: Fast
+[2023.12.15-20.30.48:007][528]LogTexture: Display: Building textures: /Game/VRTemplate/Maps/VRTemplateMap_BuiltData.VRTemplateMap_BuiltData:LQ_Lightmap_1_6 (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 123.104155 MB), EncodeSpeed: Fast
+[2023.12.15-20.30.48:013][528]LogTexture: Display: Building textures: /Game/VRTemplate/Maps/VRTemplateMap_BuiltData.VRTemplateMap_BuiltData:HQ_Lightmap1_7 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 170.479156 MB), EncodeSpeed: Fast
+[2023.12.15-20.30.48:021][528]LogTexture: Display: Building textures: /Game/VRTemplate/Maps/VRTemplateMap_BuiltData.VRTemplateMap_BuiltData:HQ_Lightmap1_8 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 170.479156 MB), EncodeSpeed: Fast
+[2023.12.15-20.30.48:029][528]LogTexture: Display: Building textures: /Game/VRTemplate/Maps/VRTemplateMap_BuiltData.VRTemplateMap_BuiltData:LQ_Lightmap_1_8 (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 123.104155 MB), EncodeSpeed: Fast
+[2023.12.15-20.30.48:172][528]LogStaticLightingSystem: VRTemplateMap_BuiltData storing lightmap data for 22 meshes in 15 LightmapResourceClusters (1.5 Meshes per cluster).
+[2023.12.15-20.30.48:185][528]Lightmass on DESKTOP-NTE1P3L: 4.74 sec total, 156 ms importing, 10 ms setup, 423 ms photons, 4.13 sec processing, 0 us extra exporting [22/22 mappings]. Threads: 2:02 min total, 21.9 sec processing.
+[2023.12.15-20.30.48:188][528]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2023.12.15-20.30.48:224][528]LogStaticLightingSystem: Illumination: 11.4 sec (212 ms encoding lightmaps, 127 ms encoding shadowmaps)
+[2023.12.15-20.30.48:224][528]LogStaticLightingSystem: Lightmap texture memory:  16.5 MB (16.5 MB streaming, 0.0 MB non-streaming), 18 textures
+[2023.12.15-20.30.48:224][528]LogStaticLightingSystem: Shadowmap texture memory: 3.4 MB (3.4 MB streaming, 0.0 MB non-streaming), 4 textures
+[2023.12.15-20.30.48:772][528]DumpUnbuiltLightIteractions
+[2023.12.15-20.30.48:772][528]Lights with unbuilt interactions: 0
+[2023.12.15-20.30.48:772][528]
+[2023.12.15-20.30.48:772][528]Primitives with unbuilt interactions: 0
+[2023.12.15-20.30.48:944][529]Cmd: MAP CHECK NOTIFYRESULTS
+[2023.12.15-20.30.48:944][529]MapCheck: New page: VRTemplateMap - 15 dic. 2023 8:30:48
+[2023.12.15-20.30.48:944][529]MapCheck: Warning: BP_VRLever_C_1 Static mesh actor has NULL StaticMesh property 
+[2023.12.15-20.30.48:944][529]MapCheck: Map check complete: 0 Error(s), 1 Warning(s), took 0.47ms to complete.
+[2023.12.15-20.31.04:283][437]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.15-20.31.04:347][440]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/MyVRTemplate/Blueprints/VRInteractables/VRSocketInteractor/BP_AttachableObject.BP_AttachableObject_C
+[2023.12.15-20.31.04:347][440]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/MyVRTemplate/Blueprints/VRInteractables/VRSocketInteractor/BP_AttachableObject.BP_AttachableObject_C
+[2023.12.15-20.31.04:348][440]LogActorFactory: Actor Factory spawned Blueprint /Game/MyVRTemplate/Blueprints/VRInteractables/VRSocketInteractor/BP_AttachableObject.BP_AttachableObject as actor: BP_AttachableObject_C /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.BP_AttachableObject_C_0
+[2023.12.15-20.31.04:348][440]LogActorFactory: Actor Factory spawned Blueprint /Game/MyVRTemplate/Blueprints/VRInteractables/VRSocketInteractor/BP_AttachableObject.BP_AttachableObject as actor: BP_AttachableObject_C /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.BP_AttachableObject_C_0
+[2023.12.15-20.31.05:642][517]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/MyVRTemplate/Blueprints/VRInteractables/VRSocketInteractor/BP_AttachableObject.BP_AttachableObject_C
+[2023.12.15-20.31.05:642][517]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/MyVRTemplate/Blueprints/VRInteractables/VRSocketInteractor/BP_AttachableObject.BP_AttachableObject_C
+[2023.12.15-20.31.05:643][517]LogActorFactory: Actor Factory spawned Blueprint /Game/MyVRTemplate/Blueprints/VRInteractables/VRSocketInteractor/BP_AttachableObject.BP_AttachableObject as actor: BP_AttachableObject_C /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.BP_AttachableObject_C_1
+[2023.12.15-20.31.05:643][517]LogActorFactory: Actor Factory spawned Blueprint /Game/MyVRTemplate/Blueprints/VRInteractables/VRSocketInteractor/BP_AttachableObject.BP_AttachableObject as actor: BP_AttachableObject_C /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.BP_AttachableObject_C_1
+[2023.12.15-20.31.14:336][ 38]Cmd: DUPLICATE
+[2023.12.15-20.31.14:336][ 38]Cmd: ACTOR DUPLICATE
+[2023.12.15-20.31.16:049][140]Cmd: DUPLICATE
+[2023.12.15-20.31.16:049][140]Cmd: ACTOR DUPLICATE
+[2023.12.15-20.31.32:761][139]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.15-20.31.41:815][681]LogViewport: Scene viewport resized to 1423x571, mode Windowed.
+[2023.12.15-20.31.41:837][682]LogViewport: Scene viewport resized to 1423x575, mode Windowed.
+[2023.12.15-20.31.41:854][683]LogViewport: Scene viewport resized to 1423x578, mode Windowed.
+[2023.12.15-20.31.41:871][684]LogViewport: Scene viewport resized to 1423x582, mode Windowed.
+[2023.12.15-20.31.41:887][685]LogViewport: Scene viewport resized to 1423x589, mode Windowed.
+[2023.12.15-20.31.41:904][686]LogViewport: Scene viewport resized to 1423x596, mode Windowed.
+[2023.12.15-20.31.41:920][687]LogViewport: Scene viewport resized to 1423x606, mode Windowed.
+[2023.12.15-20.31.41:936][688]LogViewport: Scene viewport resized to 1423x616, mode Windowed.
+[2023.12.15-20.31.41:953][689]LogViewport: Scene viewport resized to 1423x627, mode Windowed.
+[2023.12.15-20.31.41:970][690]LogViewport: Scene viewport resized to 1423x635, mode Windowed.
+[2023.12.15-20.31.41:987][691]LogViewport: Scene viewport resized to 1423x643, mode Windowed.
+[2023.12.15-20.31.42:003][692]LogViewport: Scene viewport resized to 1423x649, mode Windowed.
+[2023.12.15-20.31.42:020][693]LogViewport: Scene viewport resized to 1423x655, mode Windowed.
+[2023.12.15-20.31.42:038][694]LogViewport: Scene viewport resized to 1423x663, mode Windowed.
+[2023.12.15-20.31.42:056][695]LogViewport: Scene viewport resized to 1423x672, mode Windowed.
+[2023.12.15-20.31.42:073][696]LogViewport: Scene viewport resized to 1423x679, mode Windowed.
+[2023.12.15-20.31.42:094][697]LogViewport: Scene viewport resized to 1423x689, mode Windowed.
+[2023.12.15-20.31.42:111][698]LogViewport: Scene viewport resized to 1423x700, mode Windowed.
+[2023.12.15-20.31.42:127][699]LogViewport: Scene viewport resized to 1423x711, mode Windowed.
+[2023.12.15-20.31.42:144][700]LogViewport: Scene viewport resized to 1423x721, mode Windowed.
+[2023.12.15-20.31.42:161][701]LogViewport: Scene viewport resized to 1423x733, mode Windowed.
+[2023.12.15-20.31.42:178][702]LogViewport: Scene viewport resized to 1423x742, mode Windowed.
+[2023.12.15-20.31.42:195][703]LogViewport: Scene viewport resized to 1423x745, mode Windowed.
+[2023.12.15-20.31.42:278][708]LogViewport: Scene viewport resized to 1423x739, mode Windowed.
+[2023.12.15-20.31.50:793][216]LogSlate: Took 0.000115 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.12.15-20.33.14:994][167]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.15-20.33.15:033][167]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2023.12.15-20.33.15:038][167]LogPackageLocalizationCache: Processed 43 localized package path(s) for 1 prioritized culture(s) in 0.003630 seconds
+[2023.12.15-20.33.15:043][167]LogSerialization: UsePackageTrailer: 'true'
+[2023.12.15-20.33.15:050][167]LogSavePackage: Moving output files for package: /Game/VRTemplate/Maps/VRTemplateMap
+[2023.12.15-20.33.15:050][167]LogSavePackage: Moving '../../../../../../Users/hecto/Documents/GitHub/MyVRTemplate/MyVRTemplate/Saved/VRTemplateMapBEF4C017479EF31803E61091FCF4FAA6.tmp' to '../../../../../../Users/hecto/Documents/GitHub/MyVRTemplate/MyVRTemplate/Content/VRTemplate/Maps/VRTemplateMap.umap'
+[2023.12.15-20.33.15:056][167]Message dialog closed, result: Ok, title: Unable to Check Out From Revision Control!, text: The following assets could not be successfully checked out from revision control:
+/Game/VRTemplate/Maps/VRTemplateMap_BuiltData
+[2023.12.15-20.33.15:056][167]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.15-20.33.15:118][167]LogSavePackage: Moving output files for package: /Game/VRTemplate/Maps/VRTemplateMap_BuiltData
+[2023.12.15-20.33.15:118][167]LogSavePackage: Moving '../../../../../../Users/hecto/Documents/GitHub/MyVRTemplate/MyVRTemplate/Saved/VRTemplateMap_BuiltData82ACBF4B4DD3E96FBC5B31886355E977.tmp' to '../../../../../../Users/hecto/Documents/GitHub/MyVRTemplate/MyVRTemplate/Content/VRTemplate/Maps/VRTemplateMap_BuiltData.uasset'
+[2023.12.15-20.33.15:119][167]LogFileHelpers: InternalPromptForCheckoutAndSave took 62 ms
+[2023.12.15-20.33.15:119][167]Message dialog closed, result: Ok, title: Unable to Check Out From Revision Control!, text: The following assets could not be successfully checked out from revision control:
+/Game/VRTemplate/Maps/VRTemplateMap_BuiltData
+[2023.12.15-20.33.15:119][167]LogFileHelpers: Saving map 'VRTemplateMap' took 0.098
+[2023.12.15-20.33.15:127][167]LogFileHelpers: InternalPromptForCheckoutAndSave took 132 ms (total: 195 ms)
+[2023.12.15-20.33.15:130][167]AssetCheck: New page: Asset Save: multiple assets
+[2023.12.15-20.33.15:130][167]LogContentValidation: Display: Validating /Script/Engine.MapBuildDataRegistry /Game/VRTemplate/Maps/VRTemplateMap_BuiltData.VRTemplateMap_BuiltData
+[2023.12.15-20.33.15:130][167]LogContentValidation: Display: Validating /Script/Engine.World /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap
