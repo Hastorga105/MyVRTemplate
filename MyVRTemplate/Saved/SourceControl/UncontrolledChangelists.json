@@ -18,9 +18,16 @@
 				"C:/Users/hecto/Documents/GitHub/MyVRTemplate/MyVRTemplate/Content/MyVRTemplate/Blueprints/VRInteractables/VRSocketInteractor/AttachableZoneObject.uasset",
 				"C:/Users/hecto/Documents/GitHub/MyVRTemplate/MyVRTemplate/Content/MyVRTemplate/Blueprints/VRInteractables/VRSocketInteractor/BP_AttachableObject.uasset",
 				"C:/Users/hecto/Documents/GitHub/MyVRTemplate/MyVRTemplate/Content/MyVRTemplate/Blueprints/VRInteractables/VRSocketInteractor/AttachableObject.uasset",
-				"C:/Users/hecto/Documents/GitHub/MyVRTemplate/MyVRTemplate/Content/MyVRTemplate/Materials/M_Transparent.uasset",
 				"C:/Users/hecto/Documents/GitHub/MyVRTemplate/MyVRTemplate/Content/MyVRTemplate/Materials/M_TransparentBlue05.uasset",
 				"C:/Users/hecto/Documents/GitHub/MyVRTemplate/MyVRTemplate/Content/MyVRTemplate/Blueprints/VRInteractables/VRSocketInteractor/Enum/E_InteractionLayer.uasset",
+				"C:/Users/hecto/Documents/GitHub/MyVRTemplate/MyVRTemplate/Content/MyVRTemplate/Blueprints/UI/BP_3DMenu.uasset",
+				"C:/Users/hecto/Documents/GitHub/MyVRTemplate/MyVRTemplate/Content/MyVRTemplate/Blueprints/UI/W_PauseMenu.uasset",
+				"C:/Users/hecto/Documents/GitHub/MyVRTemplate/MyVRTemplate/Content/MyVRTemplate/Blueprints/MyVRPawn.uasset",
+				"C:/Users/hecto/Documents/GitHub/MyVRTemplate/MyVRTemplate/Content/VRTemplate/Blueprints/VRGameMode.uasset",
+				"C:/Users/hecto/Documents/GitHub/MyVRTemplate/MyVRTemplate/Content/VRTemplate/Blueprints/Menu.uasset",
+				"C:/Users/hecto/Documents/GitHub/MyVRTemplate/MyVRTemplate/Content/VRTemplate/Blueprints/BP_3DMenu.uasset",
+				"C:/Users/hecto/Documents/GitHub/MyVRTemplate/MyVRTemplate/Content/VRTemplate/Blueprints/MyVRPawn.uasset",
+				"C:/Users/hecto/Documents/GitHub/MyVRTemplate/MyVRTemplate/Content/MyVRTemplate/Materials/M_Transparent.uasset",
 				"C:/Users/hecto/Documents/GitHub/MyVRTemplate/MyVRTemplate/Content/MyVRTemplate/Blueprints/VRInteractables/VRSocketInteractor/VRSocketInteractor.uasset",
 				"C:/Users/hecto/Documents/GitHub/MyVRTemplate/MyVRTemplate/Content/MyVRTemplate/Blueprints/VRInteractables/VRSocketInteractor/BP.uasset"
 			]
