@@ -169,6 +169,14 @@
 			"ChunkId": "ff5a26a059754af200000001"
 		},
 		{
+			"Path": "Engine/Content/EditorResources/S_KHinge.uasset",
+			"ChunkId": "00c8065cd4cf1c4600000001"
+		},
+		{
+			"Path": "Engine/Content/EditorResources/S_KHinge.ubulk",
+			"ChunkId": "00c8065cd4cf1c4600000002"
+		},
+		{
 			"Path": "Engine/Content/EditorResources/S_Solver.uasset",
 			"ChunkId": "5c918efb403d4bb200000001"
 		},
@@ -2049,6 +2057,10 @@
 			"ChunkId": "0fa1e467ded4c0a200000002"
 		},
 		{
+			"Path": "MyVRTemplate/Content/MyVRTemplate/Assets/MyMannequinsXR/SKM_MannyXR_right_Physics.uasset",
+			"ChunkId": "1bc8259de3436bb100000001"
+		},
+		{
 			"Path": "MyVRTemplate/Content/MyVRTemplate/Assets/StaticMeshes/Material_007.uasset",
 			"ChunkId": "1dafe421010c11ce00000001"
 		},
@@ -2063,10 +2075,6 @@
 		{
 			"Path": "MyVRTemplate/Content/MyVRTemplate/Assets/StaticMeshes/Sword1.ubulk",
 			"ChunkId": "02463bb1ef1fe48800000002"
-		},
-		{
-			"Path": "MyVRTemplate/Content/MyVRTemplate/Blueprints/BP_Attachable_Object.uasset",
-			"ChunkId": "7efbaffc41fc190700000001"
 		},
 		{
 			"Path": "MyVRTemplate/Content/MyVRTemplate/Blueprints/BP_GrabbableObject.uasset",
@@ -2097,6 +2105,10 @@
 			"ChunkId": "dd19760cef85bb8e00000001"
 		},
 		{
+			"Path": "MyVRTemplate/Content/MyVRTemplate/Blueprints/VRInteractables/BP_PhysicsLever.uasset",
+			"ChunkId": "aa6fb5130cac0d0800000001"
+		},
+		{
 			"Path": "MyVRTemplate/Content/MyVRTemplate/Blueprints/VRInteractables/BP_VRDial.uasset",
 			"ChunkId": "b3a9e7426d09dba200000001"
 		},
@@ -2111,6 +2123,10 @@
 		{
 			"Path": "MyVRTemplate/Content/MyVRTemplate/Blueprints/VRInteractables/VRSocketInteractor/AttachZone.uasset",
 			"ChunkId": "3e9734976d7faf1200000001"
+		},
+		{
+			"Path": "MyVRTemplate/Content/MyVRTemplate/Blueprints/VRInteractables/VRSocketInteractor/BP_Attachable_Object.uasset",
+			"ChunkId": "a835c58424f8fe9600000001"
 		},
 		{
 			"Path": "MyVRTemplate/Content/MyVRTemplate/Blueprints/VRInteractables/VRSocketInteractor/BP_VRSocketInteractor.uasset",
@@ -3028,6 +3044,15 @@
 			"Name": "/Engine/EditorResources/S_BoxReflectionCapture",
 			"ExportBundleChunkIds": [
 				"ff5a26a059754af200000001"
+			]
+		},
+		{
+			"Name": "/Engine/EditorResources/S_KHinge",
+			"ExportBundleChunkIds": [
+				"00c8065cd4cf1c4600000001"
+			],
+			"BulkDataChunkIds": [
+				"00c8065cd4cf1c4600000002"
 			]
 		},
 		{
@@ -4699,6 +4724,12 @@
 			]
 		},
 		{
+			"Name": "/Game/MyVRTemplate/Assets/MyMannequinsXR/SKM_MannyXR_right_Physics",
+			"ExportBundleChunkIds": [
+				"1bc8259de3436bb100000001"
+			]
+		},
+		{
 			"Name": "/Game/MyVRTemplate/Assets/StaticMeshes/Material_007",
 			"ExportBundleChunkIds": [
 				"1dafe421010c11ce00000001"
@@ -4720,10 +4751,7 @@
 			]
 		},
 		{
-			"Name": "/Game/MyVRTemplate/Blueprints/BP_Attachable_Object",
-			"ExportBundleChunkIds": [
-				"7efbaffc41fc190700000001"
-			]
+			"Name": "/Game/MyVRTemplate/Blueprints/BP_Attachable_Object"
 		},
 		{
 			"Name": "/Game/MyVRTemplate/Blueprints/BP_GrabbableObject",
@@ -4774,6 +4802,12 @@
 			]
 		},
 		{
+			"Name": "/Game/MyVRTemplate/Blueprints/VRInteractables/BP_PhysicsLever",
+			"ExportBundleChunkIds": [
+				"aa6fb5130cac0d0800000001"
+			]
+		},
+		{
 			"Name": "/Game/MyVRTemplate/Blueprints/VRInteractables/BP_VRDial",
 			"ExportBundleChunkIds": [
 				"b3a9e7426d09dba200000001"
@@ -4798,6 +4832,12 @@
 			"Name": "/Game/MyVRTemplate/Blueprints/VRInteractables/VRSocketInteractor/AttachZone",
 			"ExportBundleChunkIds": [
 				"3e9734976d7faf1200000001"
+			]
+		},
+		{
+			"Name": "/Game/MyVRTemplate/Blueprints/VRInteractables/VRSocketInteractor/BP_Attachable_Object",
+			"ExportBundleChunkIds": [
+				"a835c58424f8fe9600000001"
 			]
 		},
 		{
