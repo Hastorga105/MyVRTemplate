@@ -169,14 +169,6 @@
 			"ChunkId": "ff5a26a059754af200000001"
 		},
 		{
-			"Path": "Engine/Content/EditorResources/S_KHinge.uasset",
-			"ChunkId": "00c8065cd4cf1c4600000001"
-		},
-		{
-			"Path": "Engine/Content/EditorResources/S_KHinge.ubulk",
-			"ChunkId": "00c8065cd4cf1c4600000002"
-		},
-		{
 			"Path": "Engine/Content/EditorResources/S_Solver.uasset",
 			"ChunkId": "5c918efb403d4bb200000001"
 		},
@@ -327,6 +319,14 @@
 		{
 			"Path": "Engine/Content/EngineMaterials/Black_1x1_EXR_Texture_VT.uasset",
 			"ChunkId": "4eefe050ec0582d800000001"
+		},
+		{
+			"Path": "Engine/Content/EngineMaterials/BlendFunc_DefBase.uasset",
+			"ChunkId": "34b40296d0d3844e00000001"
+		},
+		{
+			"Path": "Engine/Content/EngineMaterials/BlendFunc_DefBlend.uasset",
+			"ChunkId": "b1dd9666d4d25cf600000001"
 		},
 		{
 			"Path": "Engine/Content/EngineMaterials/DefaultBloomKernel.uasset",
@@ -499,6 +499,10 @@
 		{
 			"Path": "Engine/Content/EngineMaterials/WorldGridMaterial.uasset",
 			"ChunkId": "eeb296b2a739309500000001"
+		},
+		{
+			"Path": "Engine/Content/EngineMeshes/Cube.uasset",
+			"ChunkId": "fa410045dee3a15800000001"
 		},
 		{
 			"Path": "Engine/Content/EngineMeshes/Sphere.uasset",
@@ -741,6 +745,10 @@
 			"ChunkId": "4762b775bfe4b22d00000001"
 		},
 		{
+			"Path": "Engine/Content/Functions/Engine_MaterialFunctions03/Blends/Blend_Overlay.uasset",
+			"ChunkId": "f0bdde7a2df6543900000001"
+		},
+		{
 			"Path": "Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_NormalBlend.uasset",
 			"ChunkId": "b5db971094e28fc500000001"
 		},
@@ -755,6 +763,26 @@
 		{
 			"Path": "Engine/Content/Maps/Entry_BuiltData.uasset",
 			"ChunkId": "f95ade32d57ba98c00000001"
+		},
+		{
+			"Path": "Engine/Content/OpenWorldTemplate/LandscapeMaterial/M_ProcGrid.uasset",
+			"ChunkId": "801dc51816054cd400000001"
+		},
+		{
+			"Path": "Engine/Content/OpenWorldTemplate/LandscapeMaterial/MF_ProcGrid.uasset",
+			"ChunkId": "1a175ae23ad6d41400000001"
+		},
+		{
+			"Path": "Engine/Content/OpenWorldTemplate/LandscapeMaterial/MI_ProcGrid.uasset",
+			"ChunkId": "ab6e8d7a46c9d53c00000001"
+		},
+		{
+			"Path": "Engine/Content/OpenWorldTemplate/LandscapeMaterial/T_GridChecker_A.uasset",
+			"ChunkId": "eb26c788a1a10ea100000001"
+		},
+		{
+			"Path": "Engine/Content/OpenWorldTemplate/LandscapeMaterial/T_GridChecker_A.ubulk",
+			"ChunkId": "eb26c788a1a10ea100000002"
 		},
 		{
 			"Path": "Engine/Content/VREditor/BasicMeshes/M_Floor_01.uasset",
@@ -1347,6 +1375,114 @@
 		{
 			"Path": "Engine/Plugins/Interchange/Runtime/Content/Pipelines/DefaultTexturePipeline.uasset",
 			"ChunkId": "1c2fd1107a52870200000001"
+		},
+		{
+			"Path": "Engine/Plugins/Marketplace/MetaXR/Content/Materials/LeftMetaQuestTouchProMaterial.uasset",
+			"ChunkId": "4ba3c9c98a3d650e00000001"
+		},
+		{
+			"Path": "Engine/Plugins/Marketplace/MetaXR/Content/Materials/OculusMR_OpaqueColoredMaterial.uasset",
+			"ChunkId": "647b1dfb2abdd52f00000001"
+		},
+		{
+			"Path": "Engine/Plugins/Marketplace/MetaXR/Content/Materials/PokeAHoleInverseMaterial.uasset",
+			"ChunkId": "6c59e7f655d5992500000001"
+		},
+		{
+			"Path": "Engine/Plugins/Marketplace/MetaXR/Content/Materials/PokeAHoleMaterial.uasset",
+			"ChunkId": "ffd0939013b4f7d600000001"
+		},
+		{
+			"Path": "Engine/Plugins/Marketplace/MetaXR/Content/Materials/RightMetaQuestTouchProMaterial.uasset",
+			"ChunkId": "2aaaba475b882fc200000001"
+		},
+		{
+			"Path": "Engine/Plugins/Marketplace/MetaXR/Content/Materials/TouchForQuest2Material.uasset",
+			"ChunkId": "3f11a1702ba637e700000001"
+		},
+		{
+			"Path": "Engine/Plugins/Marketplace/MetaXR/Content/Materials/TouchForQuestRiftSControllerMaterial.uasset",
+			"ChunkId": "402b59010c69582400000001"
+		},
+		{
+			"Path": "Engine/Plugins/Marketplace/MetaXR/Content/Meshes/LeftMetaQuestTouchPro.uasset",
+			"ChunkId": "0c854a9b82a3b85000000001"
+		},
+		{
+			"Path": "Engine/Plugins/Marketplace/MetaXR/Content/Meshes/LeftTouchForQuest2.uasset",
+			"ChunkId": "10a0bb83978d0ee300000001"
+		},
+		{
+			"Path": "Engine/Plugins/Marketplace/MetaXR/Content/Meshes/LeftTouchForQuestRiftSController.uasset",
+			"ChunkId": "402df717f079ba7400000001"
+		},
+		{
+			"Path": "Engine/Plugins/Marketplace/MetaXR/Content/Meshes/RightMetaQuestTouchPro.uasset",
+			"ChunkId": "bbb6b6ca5366098600000001"
+		},
+		{
+			"Path": "Engine/Plugins/Marketplace/MetaXR/Content/Meshes/RightTouchForQuest2.uasset",
+			"ChunkId": "4f8db3e762fe68bb00000001"
+		},
+		{
+			"Path": "Engine/Plugins/Marketplace/MetaXR/Content/Meshes/RightTouchForQuestRiftSController.uasset",
+			"ChunkId": "38fbf68925cdfeb600000001"
+		},
+		{
+			"Path": "Engine/Plugins/Marketplace/MetaXR/Content/Textures/LeftMetaQuestTouchPro_Color.uasset",
+			"ChunkId": "3fdf6869ba6d953800000001"
+		},
+		{
+			"Path": "Engine/Plugins/Marketplace/MetaXR/Content/Textures/LeftMetaQuestTouchPro_Color.ubulk",
+			"ChunkId": "3fdf6869ba6d953800000002"
+		},
+		{
+			"Path": "Engine/Plugins/Marketplace/MetaXR/Content/Textures/LeftMetaQuestTouchPro_Normal.uasset",
+			"ChunkId": "381f5f2e9c65530300000001"
+		},
+		{
+			"Path": "Engine/Plugins/Marketplace/MetaXR/Content/Textures/LeftMetaQuestTouchPro_Normal.ubulk",
+			"ChunkId": "381f5f2e9c65530300000002"
+		},
+		{
+			"Path": "Engine/Plugins/Marketplace/MetaXR/Content/Textures/RightMetaQuestTouchPro_Color.uasset",
+			"ChunkId": "b32f13baa8ac33cc00000001"
+		},
+		{
+			"Path": "Engine/Plugins/Marketplace/MetaXR/Content/Textures/RightMetaQuestTouchPro_Color.ubulk",
+			"ChunkId": "b32f13baa8ac33cc00000002"
+		},
+		{
+			"Path": "Engine/Plugins/Marketplace/MetaXR/Content/Textures/RightMetaQuestTouchPro_Normal.uasset",
+			"ChunkId": "2f65d523ea20e35700000001"
+		},
+		{
+			"Path": "Engine/Plugins/Marketplace/MetaXR/Content/Textures/RightMetaQuestTouchPro_Normal.ubulk",
+			"ChunkId": "2f65d523ea20e35700000002"
+		},
+		{
+			"Path": "Engine/Plugins/Marketplace/MetaXR/Content/Textures/TouchForQuest2_Color.uasset",
+			"ChunkId": "823ed85fba6d5c4b00000001"
+		},
+		{
+			"Path": "Engine/Plugins/Marketplace/MetaXR/Content/Textures/TouchForQuest2_Color.ubulk",
+			"ChunkId": "823ed85fba6d5c4b00000002"
+		},
+		{
+			"Path": "Engine/Plugins/Marketplace/MetaXR/Content/Textures/TouchForQuest2Material_Roughness.uasset",
+			"ChunkId": "b9e317e0e20af4bf00000001"
+		},
+		{
+			"Path": "Engine/Plugins/Marketplace/MetaXR/Content/Textures/TouchForQuest2Material_Roughness.ubulk",
+			"ChunkId": "b9e317e0e20af4bf00000002"
+		},
+		{
+			"Path": "Engine/Plugins/Marketplace/MetaXR/Content/Textures/TouchForQuestRiftSController_albedo.uasset",
+			"ChunkId": "056e59c89c32956000000001"
+		},
+		{
+			"Path": "Engine/Plugins/Marketplace/MetaXR/Content/Textures/TouchForQuestRiftSController_albedo.ubulk",
+			"ChunkId": "056e59c89c32956000000002"
 		},
 		{
 			"Path": "Engine/Plugins/Media/MediaPlate/Content/SM_MediaPlateScreen.uasset",
@@ -2097,8 +2233,20 @@
 			"ChunkId": "4023a613ca04cb2b00000001"
 		},
 		{
+			"Path": "MyVRTemplate/Content/MyVRTemplate/Blueprints/Pistol1.uasset",
+			"ChunkId": "03d5472accb6e1fc00000001"
+		},
+		{
+			"Path": "MyVRTemplate/Content/MyVRTemplate/Blueprints/UI/BP_3DGrabbableMenu.uasset",
+			"ChunkId": "7c240dddbbc5ba0400000001"
+		},
+		{
 			"Path": "MyVRTemplate/Content/MyVRTemplate/Blueprints/UI/BP_3DMenu.uasset",
 			"ChunkId": "f616271e9a9087d100000001"
+		},
+		{
+			"Path": "MyVRTemplate/Content/MyVRTemplate/Blueprints/UI/W_GrabbableWidget.uasset",
+			"ChunkId": "a25a1be3b1af86a600000001"
 		},
 		{
 			"Path": "MyVRTemplate/Content/MyVRTemplate/Blueprints/UI/W_PauseMenu.uasset",
@@ -3047,15 +3195,6 @@
 			]
 		},
 		{
-			"Name": "/Engine/EditorResources/S_KHinge",
-			"ExportBundleChunkIds": [
-				"00c8065cd4cf1c4600000001"
-			],
-			"BulkDataChunkIds": [
-				"00c8065cd4cf1c4600000002"
-			]
-		},
-		{
 			"Name": "/Engine/EditorResources/S_Solver",
 			"ExportBundleChunkIds": [
 				"5c918efb403d4bb200000001"
@@ -3272,6 +3411,18 @@
 			"Name": "/Engine/EngineMaterials/Black_1x1_EXR_Texture_VT",
 			"ExportBundleChunkIds": [
 				"4eefe050ec0582d800000001"
+			]
+		},
+		{
+			"Name": "/Engine/EngineMaterials/BlendFunc_DefBase",
+			"ExportBundleChunkIds": [
+				"34b40296d0d3844e00000001"
+			]
+		},
+		{
+			"Name": "/Engine/EngineMaterials/BlendFunc_DefBlend",
+			"ExportBundleChunkIds": [
+				"b1dd9666d4d25cf600000001"
 			]
 		},
 		{
@@ -3515,6 +3666,12 @@
 			"Name": "/Engine/EngineMaterials/WorldGridMaterial",
 			"ExportBundleChunkIds": [
 				"eeb296b2a739309500000001"
+			]
+		},
+		{
+			"Name": "/Engine/EngineMeshes/Cube",
+			"ExportBundleChunkIds": [
+				"fa410045dee3a15800000001"
 			]
 		},
 		{
@@ -3860,6 +4017,12 @@
 			]
 		},
 		{
+			"Name": "/Engine/Functions/Engine_MaterialFunctions03/Blends/Blend_Overlay",
+			"ExportBundleChunkIds": [
+				"f0bdde7a2df6543900000001"
+			]
+		},
+		{
 			"Name": "/Engine/Functions/MaterialLayerFunctions/MatLayerBlend_NormalBlend",
 			"ExportBundleChunkIds": [
 				"b5db971094e28fc500000001"
@@ -3881,6 +4044,33 @@
 			"Name": "/Engine/Maps/Entry_BuiltData",
 			"ExportBundleChunkIds": [
 				"f95ade32d57ba98c00000001"
+			]
+		},
+		{
+			"Name": "/Engine/OpenWorldTemplate/LandscapeMaterial/M_ProcGrid",
+			"ExportBundleChunkIds": [
+				"801dc51816054cd400000001"
+			]
+		},
+		{
+			"Name": "/Engine/OpenWorldTemplate/LandscapeMaterial/MF_ProcGrid",
+			"ExportBundleChunkIds": [
+				"1a175ae23ad6d41400000001"
+			]
+		},
+		{
+			"Name": "/Engine/OpenWorldTemplate/LandscapeMaterial/MI_ProcGrid",
+			"ExportBundleChunkIds": [
+				"ab6e8d7a46c9d53c00000001"
+			]
+		},
+		{
+			"Name": "/Engine/OpenWorldTemplate/LandscapeMaterial/T_GridChecker_A",
+			"ExportBundleChunkIds": [
+				"eb26c788a1a10ea100000001"
+			],
+			"BulkDataChunkIds": [
+				"eb26c788a1a10ea100000002"
 			]
 		},
 		{
@@ -4790,9 +4980,27 @@
 			]
 		},
 		{
+			"Name": "/Game/MyVRTemplate/Blueprints/Pistol1",
+			"ExportBundleChunkIds": [
+				"03d5472accb6e1fc00000001"
+			]
+		},
+		{
+			"Name": "/Game/MyVRTemplate/Blueprints/UI/BP_3DGrabbableMenu",
+			"ExportBundleChunkIds": [
+				"7c240dddbbc5ba0400000001"
+			]
+		},
+		{
 			"Name": "/Game/MyVRTemplate/Blueprints/UI/BP_3DMenu",
 			"ExportBundleChunkIds": [
 				"f616271e9a9087d100000001"
+			]
+		},
+		{
+			"Name": "/Game/MyVRTemplate/Blueprints/UI/W_GrabbableWidget",
+			"ExportBundleChunkIds": [
+				"a25a1be3b1af86a600000001"
 			]
 		},
 		{
@@ -5712,6 +5920,147 @@
 		},
 		{
 			"Name": "/Niagara/ParameterDefinitions/SpriteRenderer"
+		},
+		{
+			"Name": "/OculusXR/Materials/LeftMetaQuestTouchProMaterial",
+			"ExportBundleChunkIds": [
+				"4ba3c9c98a3d650e00000001"
+			]
+		},
+		{
+			"Name": "/OculusXR/Materials/OculusMR_OpaqueColoredMaterial",
+			"ExportBundleChunkIds": [
+				"647b1dfb2abdd52f00000001"
+			]
+		},
+		{
+			"Name": "/OculusXR/Materials/PokeAHoleInverseMaterial",
+			"ExportBundleChunkIds": [
+				"6c59e7f655d5992500000001"
+			]
+		},
+		{
+			"Name": "/OculusXR/Materials/PokeAHoleMaterial",
+			"ExportBundleChunkIds": [
+				"ffd0939013b4f7d600000001"
+			]
+		},
+		{
+			"Name": "/OculusXR/Materials/RightMetaQuestTouchProMaterial",
+			"ExportBundleChunkIds": [
+				"2aaaba475b882fc200000001"
+			]
+		},
+		{
+			"Name": "/OculusXR/Materials/TouchForQuest2Material",
+			"ExportBundleChunkIds": [
+				"3f11a1702ba637e700000001"
+			]
+		},
+		{
+			"Name": "/OculusXR/Materials/TouchForQuestRiftSControllerMaterial",
+			"ExportBundleChunkIds": [
+				"402b59010c69582400000001"
+			]
+		},
+		{
+			"Name": "/OculusXR/Meshes/LeftMetaQuestTouchPro",
+			"ExportBundleChunkIds": [
+				"0c854a9b82a3b85000000001"
+			]
+		},
+		{
+			"Name": "/OculusXR/Meshes/LeftTouchForQuest2",
+			"ExportBundleChunkIds": [
+				"10a0bb83978d0ee300000001"
+			]
+		},
+		{
+			"Name": "/OculusXR/Meshes/LeftTouchForQuestRiftSController",
+			"ExportBundleChunkIds": [
+				"402df717f079ba7400000001"
+			]
+		},
+		{
+			"Name": "/OculusXR/Meshes/RightMetaQuestTouchPro",
+			"ExportBundleChunkIds": [
+				"bbb6b6ca5366098600000001"
+			]
+		},
+		{
+			"Name": "/OculusXR/Meshes/RightTouchForQuest2",
+			"ExportBundleChunkIds": [
+				"4f8db3e762fe68bb00000001"
+			]
+		},
+		{
+			"Name": "/OculusXR/Meshes/RightTouchForQuestRiftSController",
+			"ExportBundleChunkIds": [
+				"38fbf68925cdfeb600000001"
+			]
+		},
+		{
+			"Name": "/OculusXR/Textures/LeftMetaQuestTouchPro_Color",
+			"ExportBundleChunkIds": [
+				"3fdf6869ba6d953800000001"
+			],
+			"BulkDataChunkIds": [
+				"3fdf6869ba6d953800000002"
+			]
+		},
+		{
+			"Name": "/OculusXR/Textures/LeftMetaQuestTouchPro_Normal",
+			"ExportBundleChunkIds": [
+				"381f5f2e9c65530300000001"
+			],
+			"BulkDataChunkIds": [
+				"381f5f2e9c65530300000002"
+			]
+		},
+		{
+			"Name": "/OculusXR/Textures/RightMetaQuestTouchPro_Color",
+			"ExportBundleChunkIds": [
+				"b32f13baa8ac33cc00000001"
+			],
+			"BulkDataChunkIds": [
+				"b32f13baa8ac33cc00000002"
+			]
+		},
+		{
+			"Name": "/OculusXR/Textures/RightMetaQuestTouchPro_Normal",
+			"ExportBundleChunkIds": [
+				"2f65d523ea20e35700000001"
+			],
+			"BulkDataChunkIds": [
+				"2f65d523ea20e35700000002"
+			]
+		},
+		{
+			"Name": "/OculusXR/Textures/TouchForQuest2_Color",
+			"ExportBundleChunkIds": [
+				"823ed85fba6d5c4b00000001"
+			],
+			"BulkDataChunkIds": [
+				"823ed85fba6d5c4b00000002"
+			]
+		},
+		{
+			"Name": "/OculusXR/Textures/TouchForQuest2Material_Roughness",
+			"ExportBundleChunkIds": [
+				"b9e317e0e20af4bf00000001"
+			],
+			"BulkDataChunkIds": [
+				"b9e317e0e20af4bf00000002"
+			]
+		},
+		{
+			"Name": "/OculusXR/Textures/TouchForQuestRiftSController_albedo",
+			"ExportBundleChunkIds": [
+				"056e59c89c32956000000001"
+			],
+			"BulkDataChunkIds": [
+				"056e59c89c32956000000002"
+			]
 		},
 		{
 			"Name": "/OpenXR/Devices/HTCVive/BaseTexture",

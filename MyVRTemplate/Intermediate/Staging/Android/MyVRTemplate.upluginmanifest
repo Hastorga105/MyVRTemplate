@@ -275,6 +275,73 @@
 			}
 		},
 		{
+			"File": "../../../Engine/Plugins/Animation/LiveLink/LiveLink.uplugin",
+			"Descriptor": 
+			{
+				"FileVersion": 3,
+				"Version": 1,
+				"VersionName": "2.0",
+				"FriendlyName": "Live Link",
+				"Description": "LiveLink allows streaming of animated data into Unreal Engine",
+				"Category": "Animation",
+				"CreatedBy": "Epic Games, Inc.",
+				"CreatedByURL": "https://epicgames.com",
+				"DocsURL": "",
+				"MarketplaceURL": "",
+				"SupportURL": "",
+				"EnabledByDefault": false,
+				"CanContainContent": false,
+				"Modules": [
+					{
+						"Name": "LiveLink",
+						"Type": "Runtime",
+						"LoadingPhase": "Default"
+					},
+					{
+						"Name": "LiveLinkComponents",
+						"Type": "Runtime",
+						"LoadingPhase": "Default"
+					},
+					{
+						"Name": "LiveLinkEditor",
+						"Type": "Editor",
+						"LoadingPhase": "Default"
+					},
+					{
+						"Name": "LiveLinkGraphNode",
+						"Type": "UncookedOnly",
+						"LoadingPhase": "Default"
+					},
+					{
+						"Name": "LiveLinkMovieScene",
+						"Type": "Runtime",
+						"LoadingPhase": "Default"
+					},
+					{
+						"Name": "LiveLinkSequencer",
+						"Type": "UncookedOnly",
+						"LoadingPhase": "Default"
+					},
+					{
+						"Name": "LiveLinkMultiUser",
+						"Type": "UncookedOnly",
+						"LoadingPhase": "PostEngineInit"
+					}
+				],
+				"Plugins": [
+					{
+						"Name": "Takes",
+						"Enabled": true
+					},
+					{
+						"Name": "ConcertSyncClient",
+						"Enabled": true,
+						"Optional": true
+					}
+				]
+			}
+		},
+		{
 			"File": "../../../Engine/Plugins/Cameras/CameraShakePreviewer/CameraShakePreviewer.uplugin",
 			"Descriptor": 
 			{
@@ -398,6 +465,164 @@
 				"Plugins": [
 					{
 						"Name": "SignificanceManager",
+						"Enabled": true
+					}
+				]
+			}
+		},
+		{
+			"File": "../../../Engine/Plugins/Developer/Concert/ConcertMain/ConcertMain.uplugin",
+			"Descriptor": 
+			{
+				"FileVersion": 3,
+				"Version": 1,
+				"VersionName": "0.2",
+				"FriendlyName": "Concert - Main",
+				"Description": "Allow collaborative multi-users sessions in the Editor",
+				"Category": "Networking",
+				"CreatedBy": "Epic Games, Inc.",
+				"CreatedByURL": "https://epicgames.com",
+				"DocsURL": "",
+				"MarketplaceURL": "",
+				"SupportURL": "",
+				"EnabledByDefault": false,
+				"CanContainContent": false,
+				"IsBetaVersion": true,
+				"SupportedPrograms": [
+					"UnrealMultiUserServer",
+					"UnrealMultiUserSlateServer",
+					"UnrealRecoverySvc",
+					"CrashReportClientEditor"
+				],
+				"Modules": [
+					{
+						"Name": "Concert",
+						"Type": "UncookedOnly",
+						"LoadingPhase": "PreDefault",
+						"ProgramAllowList": [
+							"UnrealMultiUserServer",
+							"UnrealMultiUserSlateServer",
+							"UnrealRecoverySvc",
+							"CrashReportClientEditor"
+						]
+					},
+					{
+						"Name": "ConcertClient",
+						"Type": "UncookedOnly",
+						"LoadingPhase": "PreDefault",
+						"ProgramDenyList": [
+							"UnrealMultiUserServer",
+							"UnrealMultiUserSlateServer",
+							"UnrealRecoverySvc",
+							"CrashReportClientEditor"
+						]
+					},
+					{
+						"Name": "ConcertServer",
+						"Type": "UncookedOnly",
+						"LoadingPhase": "PreDefault",
+						"ProgramAllowList": [
+							"UnrealMultiUserServer",
+							"UnrealMultiUserSlateServer",
+							"UnrealRecoverySvc",
+							"CrashReportClientEditor"
+						]
+					},
+					{
+						"Name": "ConcertTransport",
+						"Type": "UncookedOnly",
+						"LoadingPhase": "PreDefault",
+						"ProgramAllowList": [
+							"UnrealMultiUserServer",
+							"UnrealMultiUserSlateServer",
+							"UnrealRecoverySvc",
+							"CrashReportClientEditor"
+						]
+					}
+				]
+			}
+		},
+		{
+			"File": "../../../Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncClient/ConcertSyncClient.uplugin",
+			"Descriptor": 
+			{
+				"FileVersion": 3,
+				"Version": 1,
+				"VersionName": "0.2",
+				"FriendlyName": "Concert Sync - Client",
+				"Description": "Client plugin to enables multi-users editor sessions when connecting to a Concert Server",
+				"Category": "Networking",
+				"CreatedBy": "Epic Games, Inc.",
+				"CreatedByURL": "https://epicgames.com",
+				"DocsURL": "",
+				"MarketplaceURL": "",
+				"SupportURL": "",
+				"EnabledByDefault": false,
+				"CanContainContent": true,
+				"IsBetaVersion": true,
+				"Modules": [
+					{
+						"Name": "ConcertSyncClient",
+						"Type": "UncookedOnly",
+						"LoadingPhase": "Default"
+					}
+				],
+				"Plugins": [
+					{
+						"Name": "ConcertSyncCore",
+						"Enabled": true
+					},
+					{
+						"Name": "ConcertMain",
+						"Enabled": true
+					}
+				]
+			}
+		},
+		{
+			"File": "../../../Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncCore/ConcertSyncCore.uplugin",
+			"Descriptor": 
+			{
+				"FileVersion": 3,
+				"Version": 1,
+				"VersionName": "0.2",
+				"FriendlyName": "Concert Sync Core",
+				"Description": "Shared plugin for Concert Sync client and server plugins",
+				"Category": "Networking",
+				"CreatedBy": "Epic Games, Inc.",
+				"CreatedByURL": "https://epicgames.com",
+				"DocsURL": "",
+				"MarketplaceURL": "",
+				"SupportURL": "",
+				"EnabledByDefault": false,
+				"CanContainContent": false,
+				"IsBetaVersion": true,
+				"SupportedPrograms": [
+					"UnrealMultiUserServer",
+					"UnrealMultiUserSlateServer",
+					"UnrealRecoverySvc",
+					"CrashReportClientEditor"
+				],
+				"Modules": [
+					{
+						"Name": "ConcertSyncCore",
+						"Type": "UncookedOnly",
+						"LoadingPhase": "PreDefault",
+						"ProgramAllowList": [
+							"UnrealMultiUserServer",
+							"UnrealMultiUserSlateServer",
+							"UnrealRecoverySvc",
+							"CrashReportClientEditor"
+						]
+					}
+				],
+				"Plugins": [
+					{
+						"Name": "ConcertMain",
+						"Enabled": true
+					},
+					{
+						"Name": "SQLiteCore",
 						"Enabled": true
 					}
 				]
@@ -1766,6 +1991,139 @@
 			}
 		},
 		{
+			"File": "../../../Engine/Plugins/Marketplace/MetaXR/OculusXR.uplugin",
+			"Descriptor": 
+			{
+				"FileVersion": 3,
+				"Version": 1,
+				"VersionName": "1.88.0",
+				"FriendlyName": "Meta XR",
+				"Description": "Support for Meta Quest headsets and controllers",
+				"Category": "Virtual Reality",
+				"CreatedBy": "Meta Platforms, Inc.",
+				"CreatedByURL": "https://www.meta.com/",
+				"DocsURL": "https://developer.oculus.com/documentation/unreal/latest/concepts/unreal-engine/",
+				"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/8313d8d7e7cf4e03a33e79eb757bccba",
+				"SupportURL": "https://forums.oculusvr.com/developer",
+				"EngineVersion": "5.2.0",
+				"CanContainContent": true,
+				"Installed": true,
+				"SupportedTargetPlatforms": [
+					"Win64",
+					"Android"
+				],
+				"Modules": [
+					{
+						"Name": "OculusXRHMD",
+						"Type": "Runtime",
+						"LoadingPhase": "PostConfigInit",
+						"PlatformAllowList": [
+							"Win64",
+							"Android"
+						]
+					},
+					{
+						"Name": "OculusXRInput",
+						"Type": "Runtime",
+						"LoadingPhase": "Default",
+						"PlatformAllowList": [
+							"Win64",
+							"Android"
+						]
+					},
+					{
+						"Name": "OculusXRMR",
+						"Type": "Runtime",
+						"LoadingPhase": "PostEngineInit",
+						"PlatformAllowList": [
+							"Win64",
+							"Android"
+						]
+					},
+					{
+						"Name": "OculusXROpenXRHMD",
+						"Type": "Runtime",
+						"LoadingPhase": "PostConfigInit",
+						"PlatformAllowList": [
+							"Win64",
+							"Android"
+						]
+					},
+					{
+						"Name": "OculusXRAnchors",
+						"Type": "Runtime",
+						"LoadingPhase": "PostEngineInit",
+						"PlatformAllowList": [
+							"Win64",
+							"Android"
+						]
+					},
+					{
+						"Name": "OculusXRScene",
+						"Type": "Runtime",
+						"LoadingPhase": "PostEngineInit",
+						"PlatformAllowList": [
+							"Win64",
+							"Android"
+						]
+					},
+					{
+						"Name": "OculusXRMovement",
+						"Type": "Runtime",
+						"LoadingPhase": "PostEngineInit",
+						"PlatformAllowList": [
+							"Win64",
+							"Android"
+						]
+					},
+					{
+						"Name": "OculusXREyeTracker",
+						"Type": "Runtime",
+						"LoadingPhase": "PostEngineInit",
+						"PlatformAllowList": [
+							"Win64",
+							"Android"
+						]
+					},
+					{
+						"Name": "OculusXREditor",
+						"Type": "Editor",
+						"LoadingPhase": "Default",
+						"PlatformAllowList": [
+							"Win64"
+						]
+					},
+					{
+						"Name": "OculusXRPassthrough",
+						"Type": "Runtime",
+						"LoadingPhase": "PostEngineInit",
+						"PlatformAllowList": [
+							"Win64",
+							"Android"
+						]
+					}
+				],
+				"Plugins": [
+					{
+						"Name": "ProceduralMeshComponent",
+						"Enabled": true
+					},
+					{
+						"Name": "OpenXR",
+						"Enabled": true
+					},
+					{
+						"Name": "AndroidPermission",
+						"Enabled": true
+					},
+					{
+						"Name": "LiveLink",
+						"Enabled": true
+					}
+				]
+			}
+		},
+		{
 			"File": "../../../Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin",
 			"Descriptor": 
 			{
@@ -2968,6 +3326,37 @@
 				"Modules": [
 					{
 						"Name": "CustomMeshComponent",
+						"Type": "Runtime",
+						"LoadingPhase": "PreDefault"
+					}
+				]
+			}
+		},
+		{
+			"File": "../../../Engine/Plugins/Runtime/Database/SQLiteCore/SQLiteCore.uplugin",
+			"Descriptor": 
+			{
+				"FileVersion": 3,
+				"Version": 1,
+				"VersionName": "1.0",
+				"FriendlyName": "SQLite",
+				"Description": "SQLite Database",
+				"Category": "Database",
+				"CreatedBy": "Epic Games, Inc.",
+				"CreatedByURL": "https://epicgames.com",
+				"DocsURL": "",
+				"MarketplaceURL": "",
+				"SupportURL": "",
+				"EnabledByDefault": false,
+				"CanContainContent": false,
+				"SupportedPrograms": [
+					"UnrealMultiUserServer",
+					"UnrealMultiUserSlateServer",
+					"UnrealRecoverySvc"
+				],
+				"Modules": [
+					{
+						"Name": "SQLiteCore",
 						"Type": "Runtime",
 						"LoadingPhase": "PreDefault"
 					}
